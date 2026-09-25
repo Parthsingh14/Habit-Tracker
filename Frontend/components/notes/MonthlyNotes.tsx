@@ -38,7 +38,7 @@ export default function MonthlyNotes({ month, year }: MonthlyNotesProps) {
       {status === "loading" ? (
         <Loading label="Loading notes…" />
       ) : (
-        <NotesEditor value={content} onChange={setContent} disabled={status === "loading"} />
+        <NotesEditor value={content} onChange={setContent} disabled={status === "saving"} />
       )}
     </section>
   );
