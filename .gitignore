@@ -1,0 +1,29 @@
+# Backend - Python
+Backend/.venv/
+Backend/venv/
+Backend/**/__pycache__/
+Backend/.env
+Backend/.env.*
+Backend/.pytest_cache/
+Backend/.mypy_cache/
+Backend/.ruff_cache/
+Backend/*.py[cod]
+
+# Frontend - Next.js / Node
+Frontend/node_modules/
+Frontend/.next/
+Frontend/out/
+Frontend/.env
+Frontend/.env.*
+!Frontend/.env.example
+Frontend/coverage/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
